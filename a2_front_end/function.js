@@ -1,3 +1,48 @@
+// 1. Write a function printTriangle(n) that prints a triangle pattern of * with n rows.
+// function printTriangle(n){
+    
+//     for(let i=1;i<=n;i++){
+//         let str=""
+//         for(let j=0;j<i;j++){
+//             str+="*"
+//         }
+//         console.log(str)
+//     }
+    
+// }
+
+// printTriangle(5)
+
+
+// 2. Write a function printReverseTriangle(n) that prints an inverted triangle of *.
+
+// function printReverseTriangle(n){
+//     for(let i=n;i<=1;i--){
+//         let str=""
+//         for(let j=0;j<i;j++){
+//             str+="*"
+//         }
+//         console.log(str)
+//     }
+// }
+// printReverseTriangle(5)
+
+// 3.Write a function printRightAngleTriangle(n) using numbers instead of *.
+
+// function printRightAngleTriangle(n){
+//     for(let i = 1; i <= n; i++){
+//         let str = ""
+//         for(let j = 1; j <= i; j++){
+//             str += j
+//         }
+//         console.log(str)
+//     }
+// }
+
+// printRightAngleTriangle(5)
+
+
+
 // 11. Write a function printPrimeNumbers(n) that prints all prime numbers from 1 to n.
 
 // function printPrimeNumbers(){
