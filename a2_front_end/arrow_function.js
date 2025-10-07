@@ -68,3 +68,32 @@
 // console.log(checkNum(-3))  
 // console.log(checkNum(0))  
 
+
+// 9. Write an arrow function that takes an array of numbers and returns the first element.
+
+// const firstElement = (arr) => {
+//     return arr[0]
+// };
+
+
+// 10. Write an arrow function that returns the last character of a given string.
+
+// const lastChar = (str) => {
+//     return str[str.length - 1]
+// };
+
+
+// 11. Write an arrow function that takes an array and returns the sum of its elements.
+
+// const sumArray = arr => {
+//     let sum = 0
+//     for (let i=0; i<arr.length; i++) {  // length property use ho rahi hai
+//         sum += arr[i]
+//     }
+//     return sum
+// };
+
+
+
+
+
