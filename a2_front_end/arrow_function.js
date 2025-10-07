@@ -75,12 +75,17 @@
 //     return arr[0]
 // };
 
+// const firstarray=[1,2,3]
+// console.log(firstElement(firstarray))
+
 
 // 10. Write an arrow function that returns the last character of a given string.
 
 // const lastChar = (str) => {
 //     return str[str.length - 1]
 // };
+
+// console.log(lastChar('ram'))
 
 
 // 11. Write an arrow function that takes an array and returns the sum of its elements.
@@ -91,7 +96,11 @@
 //         sum += arr[i]
 //     }
 //     return sum
-// };
+// }
+
+// const number=[1,2,3,4,5]
+// console.log(sumArray(number))
+
 
 
 
