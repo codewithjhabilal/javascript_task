@@ -122,6 +122,31 @@
 // console.log("Sum:", sum)
 // console.log("Average:", average)
 
+
+// 13. Create a new array that contains only even numbers from another array using filter().
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// let evens=arr.filter((items)=>{
+//     return items%2==0
+// })
+
+// console.log(evens)
+
+// 14. Use a loop to find how many elements are greater than 100
+
+// let numbers = [50, 120, 200, 90, 150, 30, 300]
+// let count = 0
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > 100) {
+//         count++;
+//     }
+// }
+
+// console.log("Elements greater than 100:", count)
+
+
  
 
 // 15. Write a function that returns the sum of all numbers in an array.
@@ -145,3 +170,70 @@
 //     console.log(arr[i])
 // }
 
+//17.  Write a program to find the second largest number in the array
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// let seconLargestNumber=arr.find((items)=>{
+//     return items>arr.length-2
+// })
+
+// console.log(seconLargestNumber)
+
+// 18.Join all array elements into a single string separated by commas
+// let arr = [1, 2, 3, 4, 5]
+// let str = ""
+// for(let i = 0;i < arr.length;i++){
+//     str += arr[i]
+//     if(i!==arr.length-1){
+//         str += "," 
+//     }
+// }
+// console.log(str)
+
+// 19. Create an array of names and print only names that start with the letter "A".
+
+
+// let names = ["Alice", "Bob", "Arjun", "David", "Anita"];
+
+
+// let findName=names.filter((items)=>{
+//     return items[0]==='A'
+// })
+
+// console.log(findName)
+
+
+// 20.Use map() to convert an array of numbers into their double + 1 (e.g. [1,2,3] → [3,5,7]).
+
+// let a=[1,2,3]
+
+// let ConvertNumbers=a.map((items)=>{
+//     return items*2+1
+// })
+// console.log(ConvertNumbers)
+
+// 21.Write a function that takes an array and returns a new array containing only unique
+// elements (remove duplicates).
+
+// >>>>
+
+
+//22 .Find the difference between the sum of even and odd numbers in the same array.
+
+
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+
+// let evenSum = 0
+// let oddSum = 0
+
+// arr.forEach((items)=>{
+//     if(items%2 == 0){
+//         evenSum += items
+//     } else {
+//         oddSum += items
+//     }
+// })
+
+// let difference = evenSum - oddSum;
+// console.log(difference)
