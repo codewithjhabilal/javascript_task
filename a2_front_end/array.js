@@ -216,7 +216,19 @@
 // 21.Write a function that takes an array and returns a new array containing only unique
 // elements (remove duplicates).
 
-// >>>>
+// function removeDuplicates(arr) {
+//   const uniqueArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!uniqueArr.includes(arr[i])) {
+//       uniqueArr.push(arr[i]);
+//     }
+//   }
+//   return uniqueArr;
+// }
+
+// console.log(removeDuplicates([1, 2, 2, 3, 3, 4]));
+
+
 
 
 //22 .Find the difference between the sum of even and odd numbers in the same array.
