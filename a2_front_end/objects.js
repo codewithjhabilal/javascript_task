@@ -305,12 +305,26 @@
 //     }
 //   ]
 // }
+//   let totalWeight=0  
+//   cat.catFriends.forEach((items)=>{
+//     // console.log(items.weight)
+//     totalWeight+=items.weight
 
-// let a=cat.catFriends.reduce((acc,items)=>{
-//     return acc+items.weight
-// },0)
+//     items.activities.forEach((res)=>{
+//         console.log(res)
+//     })
+// })
+// console.log(totalWeight)
 
-// console.log(a)
+
+
+
+
+
+
+
+
+
 
 
 
