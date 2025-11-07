@@ -171,9 +171,21 @@
 //     let res= await fetch('https://dummyjson.com/comments')
 //     let x= await res.json()
 //     console.log(x)
+
+//      x.comments.forEach((item) =>{
+        
+//         console.log(item.body)
+//     })
+
 // }
 
 // commentsApis()
+
+
+
+
+
+    
 
 
 
